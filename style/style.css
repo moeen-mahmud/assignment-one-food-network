@@ -45,7 +45,6 @@ a {
 }
 
 .nav-list a:hover {
-  color: #fcf80d;
   text-decoration: underline;
 }
 
@@ -83,7 +82,6 @@ a {
 }
 
 .article-content {
-  text-align: justify;
   width: 500px;
   line-height: 1.5em;
   color: #828282;
@@ -97,4 +95,38 @@ a {
   background: linear-gradient(#ffa500, #ff6347);
   padding: 1.5em 3em;
   border-radius: 2em;
+}
+
+/* About Section */
+
+#about {
+  display: flex;
+  background-image: url(/images/about-bg.png);
+  background-size: 100%;
+}
+
+about-section {
+  display: flex;
+}
+
+.about-image {
+  width: 45%;
+  margin-left: 25%;
+}
+
+.about-article {
+  margin-top: 5em;
+}
+
+.about-heading {
+  color: #707070;
+  font-size: 2.5em;
+}
+
+.about-content {
+  color: #18191f;
+  width: 450px;
+  font-weight: 500;
+  line-height: 2em;
+  margin-bottom: 5em;
 }
