@@ -22,30 +22,45 @@ a {
 
 #navbar {
   display: flex;
-  justify-content: flex-end;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(#ffa500, #ff6347);
+  height: 8%;
+  background: #f0ebeb;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+  width: 50%;
+  padding-left: 8%;
+}
+
+.brand-name {
+  display: block;
+  color: #fb924a;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 .nav-list {
   display: flex;
-  margin-right: 2em;
+  width: 50%;
+  margin-left: 40%;
 }
 
 .nav-list a {
   display: block;
-  font-weight: 500;
-  color: #ffffff;
+  font-weight: 400;
+  color: #18191f;
   font-size: 0.8em;
-  padding: 0 1.5em;
+  padding: 1em 1.5em;
 }
 
 .nav-list a:hover {
-  text-decoration: underline;
+  border-bottom: 5px solid #fb924a;
+  border-radius: 0.5em;
 }
 
 /* Home Section */
