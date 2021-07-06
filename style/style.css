@@ -35,6 +35,14 @@ a {
   text-transform: uppercase;
 }
 
+.btn {
+  padding: 1.5em 3em;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(255, 165, 0), rgb(255, 99, 71));
+  border-radius: 2em;
+  box-shadow: 2px 3px 15px rgba(255, 99, 71, 0.61);
+}
+
 /* Brand Name & Navbar Styling */
 
 #navbar {
@@ -104,13 +112,6 @@ a {
   font-size: 1.2em;
   font-weight: 500;
   line-height: 1.5em;
-}
-
-.btn {
-  padding: 1.5em 3em;
-  color: rgb(255, 255, 255);
-  background: linear-gradient(rgb(255, 165, 0), rgb(255, 99, 71));
-  border-radius: 2em;
 }
 
 /* About Section */
@@ -260,6 +261,7 @@ input[type="email"] {
   font-size: 1em;
   color: rgb(255, 255, 255);
   background: linear-gradient(rgb(255, 165, 0), rgb(255, 99, 71));
+  box-shadow: 2px 3px 15px rgba(255, 99, 71, 0.61);
 }
 
 /* Footer Section */
