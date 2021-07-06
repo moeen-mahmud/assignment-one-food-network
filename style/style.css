@@ -1,3 +1,5 @@
+/* Global Properties */
+
 html {
   margin: 0;
   padding: 0;
@@ -18,15 +20,30 @@ a {
   text-decoration: none;
 }
 
-/* Navbar Styling */
+/* Reusable Properties */
+
+.highlighted-text {
+  color: rgb(251, 146, 74);
+}
+
+.brand-name {
+  display: block;
+  color: rgb(87, 87, 87);
+  font-family: "Fredoka One", cursive;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Brand Name & Navbar Styling */
 
 #navbar {
   display: flex;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 8%;
+  position: fixed;
   background: rgba(243, 239, 239, 0.575);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
@@ -36,26 +53,18 @@ a {
   padding-left: 8%;
 }
 
-.brand-name {
-  display: block;
-  color: rgb(87, 87, 87);
-  font-family: "Fredoka One", cursive;
-  font-size: 1.5em;
-  font-weight: 600;
-}
-
 .nav-list {
   display: flex;
-  width: 50%;
   margin-left: 25%;
+  width: 50%;
 }
 
 .nav-list a {
   display: block;
-  font-weight: 400;
+  padding: 1em 1.5em;
   color: rgb(24, 25, 31);
   font-size: 0.8em;
-  padding: 1em 1.5em;
+  font-weight: 400;
 }
 
 .nav-list a:hover {
@@ -66,10 +75,6 @@ a {
 /* Home Section */
 
 #home {
-  display: flex;
-}
-
-.home-section {
   display: flex;
 }
 
@@ -92,23 +97,19 @@ a {
   line-height: 1.5em;
 }
 
-.highlighted-text {
-  color: rgb(251, 146, 74);
-}
-
 .article-content {
   width: 500px;
-  line-height: 1.5em;
+  margin-bottom: 3em;
   color: rgb(130, 130, 130);
   font-size: 1.2em;
   font-weight: 500;
-  margin-bottom: 3em;
+  line-height: 1.5em;
 }
 
 .btn {
+  padding: 1.5em 3em;
   color: rgb(255, 255, 255);
   background: linear-gradient(rgb(255, 165, 0), rgb(255, 99, 71));
-  padding: 1.5em 3em;
   border-radius: 2em;
 }
 
@@ -121,13 +122,9 @@ a {
   background-size: 100%;
 }
 
-about-section {
-  display: flex;
-}
-
 .about-image {
-  width: 45%;
   margin-left: 25%;
+  width: 45%;
 }
 
 .about-article {
@@ -140,8 +137,8 @@ about-section {
 }
 
 .about-content {
-  color: rgb(24, 25, 31);
   width: 450px;
+  color: rgb(24, 25, 31);
   font-weight: 500;
   line-height: 2em;
   margin-bottom: 5em;
@@ -171,9 +168,9 @@ about-section {
 }
 
 .recipe-area {
-  padding: 0 20%;
   display: flex;
   justify-content: space-evenly;
+  padding: 0 20%;
 }
 
 .recipe-box {
@@ -201,6 +198,7 @@ about-section {
 }
 
 /* Statistics Section */
+
 #stats {
   display: flex;
   justify-content: space-evenly;
@@ -216,8 +214,8 @@ about-section {
 }
 
 .stat-content {
-  font-weight: 500;
   margin-top: -2em;
+  font-weight: 500;
 }
 
 .stat-count:hover {
@@ -228,8 +226,8 @@ about-section {
 /* Subscription Section */
 
 .subscribe-section {
-  text-align: center;
   margin-bottom: 3em;
+  text-align: center;
 }
 .container h1 {
   font-size: 2em;
@@ -247,9 +245,9 @@ about-section {
 }
 
 input[type="email"] {
-  width: 400px;
   padding: 1em;
   margin: 1em;
+  width: 400px;
   border: 2px solid rgba(0, 0, 0, 0.171);
   border-radius: 2em;
   font-size: 1em;
@@ -277,7 +275,6 @@ input[type="email"] {
 .footer-section h1 {
   font-size: 2em;
   font-weight: 500;
-  text-transform: uppercase;
   margin-bottom: 1em;
 }
 
