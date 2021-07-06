@@ -118,7 +118,7 @@ a {
 
 #about {
   display: flex;
-  background-image: url(/about-bg.png);
+  background-image: url(about-bg.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 100%;
